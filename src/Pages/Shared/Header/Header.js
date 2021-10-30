@@ -23,6 +23,7 @@ const Header = () => {
                                 <Nav.Link className="text-dark" as={NavLink} to="/myOrders">My Orders</Nav.Link>
                             }
                             <Nav.Link className="text-dark" as={NavLink} to="/about">About us</Nav.Link>
+                            <Nav.Link className="text-dark" as={NavLink} to="/contact">Contact</Nav.Link>
                             {
                                 user.email &&
                                 <NavDropdown title="Admin" id="navbarScrollingDropdown">

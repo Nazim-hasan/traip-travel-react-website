@@ -3,6 +3,7 @@ import './App.css';
 import AuthProvider from './context/AuthProvider';
 import AboutUs from './Pages/AboutUs/AboutUs/AboutUs';
 import AddService from './Pages/AddService/AddService/AddService';
+import Contact from './Pages/Contact/Contact/Contact';
 import Home from './Pages/Home/Home/Home';
 import PlaceOrder from './Pages/Home/PlaceOrder/PlaceOrder';
 import Login from './Pages/Login/Login/Login';
@@ -44,6 +45,9 @@ function App() {
             </Route>
             <Route exact path="/about">
             <AboutUs></AboutUs>
+            </Route>
+            <Route exact path="/contact">
+              <Contact></Contact>
             </Route>
             <PrivateRoute exact path="/placeOrder/:planId">
               <PlaceOrder></PlaceOrder>

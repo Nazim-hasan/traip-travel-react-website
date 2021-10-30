@@ -66,7 +66,7 @@ const PlaceOrder = () => {
                             <input readOnly className="form-control" defaultValue={plan.name} id="productName" {...register("productName")} placeholder="Product Name"/>
                         
                             <label htmlFor="productPrice" className="form-label  mt-2">Product Price</label>
-                            <input className="form-control" defaultValue={plan.price} id="productPrice" {...register("productPrice")} placeholder="Price"/>
+                            <input readOnly className="form-control" defaultValue={plan.price} id="productPrice" {...register("productPrice")} placeholder="Price"/>
                         </div>
                 }
 

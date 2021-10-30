@@ -8,28 +8,28 @@ const Footer = () => {
                 <Row>
                     <Col md={3}>
                         <h4 className='text-success'>About Traip</h4>
-                        <p><small>The Traip  is a private retailer or public service that provides travel and tourism related services to the general public to offer different kinds of travelling packages.</small></p>
-                        <p><small>Info@traip.Com</small></p>
+                        <p className='text-dark'><small>The Traip  is a private retailer or public service that provides travel and tourism related services to the general .</small></p>
+                        <p className='text-success'><small>Info@traip.Com</small></p>
                     </Col>
                     <Col md={3}>
                         <h4 className='text-success'>Popular Tour</h4>
-                        <p>Blog</p>
-                        <p>Shop</p>
-                        <p>FAQ's</p>
-                        <p>Privacy Policy</p>
+                        <p className='text-dark'>Blog</p>
+                        <p className='text-dark'>Shop</p>
+                        <p className='text-dark'>FAQ's</p>
+                        <p className='text-dark'>Privacy Policy</p>
                     </Col>
                     <Col md={3}>
                         <h4 className='text-success'>Import Links</h4>
-                        <p>Destination</p>
-                        <p>Get in Touch</p>
-                        <p>Who we Are</p>
-                        <p>Contact Us</p>
+                        <p className='text-dark'>Destination</p>
+                        <p className='text-dark'>Get in Touch</p>
+                        <p className='text-dark'>Who we Are</p>
+                        <p className='text-dark'>Contact Us</p>
                     </Col>
                     <Col md={3}>
                         <h4 className='text-success'>Contact Details</h4>
-                            <p><small>250 Main Street, Brooklyn, NY 52143, US</small></p>
-                            <p><small> Tell (800)-456-789</small></p>
-                            <p><small>  Email info@icloud.com</small></p>
+                        <p className='text-dark'><small>250 Main Street, Brooklyn, NY 52143, US</small></p>
+                        <p className='text-dark'><small> Tell (800)-456-789</small></p>
+                        <p className='text-dark'><small>  Email info@icloud.com</small></p>
                     </Col>
                     
                 </Row>

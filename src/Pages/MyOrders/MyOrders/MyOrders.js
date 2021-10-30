@@ -15,7 +15,7 @@ const MyOrders = () => {
         })
     },[])
     const handleDelete =(id)=>{
-        const proceed=window.confirm('Are you sure, To delete');
+        const proceed=window.confirm('Are you sure, To cancel');
         if(proceed){
             fetch(`https://rocky-sea-97653.herokuapp.com/order/${id}`,{
                 method: 'DELETE'
@@ -45,7 +45,7 @@ const MyOrders = () => {
                     <th scope="col">Product Name</th>
                     <th scope="col">Price</th>
                     <th scope="col">Status</th>
-                    <th scope="col">Delete</th>
+                    <th scope="col">Cancel</th>
                     
                     </tr>
                 </thead>

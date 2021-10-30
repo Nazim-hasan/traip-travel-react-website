@@ -1,9 +1,9 @@
 import React from 'react';
-
+import notFoundimg from '../../Photos/404.png';
 const NotFound = () => {
     return (
         <div>
-            Page not found
+            <img src={notFoundimg} alt=""  className="img-fluid"/>
         </div>
     );
 };
