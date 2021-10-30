@@ -55,7 +55,7 @@ const ManageOrder = () => {
     return (
         <Container className="my-5">
             <h2>Manage All Orders</h2>
-            <div>
+            <div className="table-responsive">
             <table className="table">
                 <thead>
                     <tr>

@@ -17,7 +17,7 @@ const BookThroughApp = () => {
                     </div>
                 </Col>
                 <Col md={6} className="mt-2">
-                    <img className="img-fluid w-75" src="https://templates.envytheme.com/traip/default/assets/images/download.png" alt="" />
+                    <img className="img-fluid w-75 ms-5" src="https://templates.envytheme.com/traip/default/assets/images/download.png" alt="" />
                 </Col>
             </Row>
         </Container>
