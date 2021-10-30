@@ -29,7 +29,7 @@ const Header = () => {
                                 <NavDropdown title="Admin" id="navbarScrollingDropdown">
                                     
                                     <NavDropdown.Item as={NavLink} to="/manageAllOrders">Manage All Orders</NavDropdown.Item>
-                                    <NavDropdown.Item as={NavLink} to="/addNewService">Add A New Service</NavDropdown.Item>
+                                    <NavDropdown.Item as={NavLink} to="/addNewService">Add A New Plan</NavDropdown.Item>
                                     </NavDropdown>
                             }
                         </Nav>
