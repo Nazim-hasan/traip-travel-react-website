@@ -3,6 +3,10 @@
   top: 20%;
   left: 9%;
 }
+.img-icon {
+  width: 4%;
+  margin-left: 5px;
+}
 @media only screen and (max-width: 688px) {
   .custom-position {
     position: relative;
